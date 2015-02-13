@@ -1,1 +1,3 @@
-# Symfonia-C-Standard
+# Symfonia C++ Standard
+Przykladowe programy napisane w jezyku C++
+
