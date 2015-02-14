@@ -10,6 +10,7 @@ int main()
 {
 	int ktory;
 	double a, b, c;
+	int d, e, f;
 
 	cout << "Ktory program wybrac" << endl;
 	cout << " Menu wyboru: " << endl;
@@ -17,7 +18,8 @@ int main()
 	cout << "2. Odejmowanie " << endl;
 	cout << "3. Mnozenie " << endl;
 	cout << "4. Dzielenie " << endl;
-	cout << "5. Zamknij Program" << endl;
+	cout << "5. Reszta z dzilenia" << endl;
+	cout << "6. Zamknij Program" << endl;
 
 	cin >> ktory;
 	switch (ktory)
@@ -59,6 +61,15 @@ int main()
 		cout << "c = " << c << endl;
 		break;
 	case 5:
+		cout << endl << "d % e = f";
+		cout << endl << "podaj d " << endl;
+		cin >> d;
+		cout << endl << "podaj e" << endl;
+		cin >> e;
+		f = (d % e);
+		cout << "f (reszta z dzielenia) = " << f << endl;
+		break;
+	case 6:
 		return 0;
 		break;
 	default:
