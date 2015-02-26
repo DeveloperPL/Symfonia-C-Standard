@@ -1,4 +1,4 @@
-// Funkcja dodawanie.cpp: Określa punkt wejścia dla aplikacji konsoli.
+// funkcja dodawanie przypomnienie.cpp: Określa punkt wejścia dla aplikacji konsoli.
 //
 
 #include "stdafx.h"
@@ -6,27 +6,27 @@
 
 using namespace std;
 
-int dodaj(int a, int b);
+double dodawanie(double a, double b);
 
 int main()
 {
-	int x;
-	int y;
-	cout << "Podaj x: " << endl;
+	double x, y;
+	cout << "Podaj x: ";
 	cin >> x;
-	cout << "Podaj y: " << endl;
+	cout << endl << "Podaj y: ";
 	cin >> y;
-	cout << "Suma licz wynosi: " << dodaj(x, y) << endl;
+	cout << x << " + " << y << " = " << dodawanie(x, y) << endl;
 
+	return main();
 	system("pause");
 	return 0;
 }
 
-int dodaj(int a, int b)
+double dodawanie(double a, double b)
 {
-	int suma;
-	suma = a + b;
-	return suma;
+	double dzialanie;
+	dzialanie = a + b;
+	return dzialanie;
 }
 
 
